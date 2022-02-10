@@ -16,7 +16,7 @@ public enum VersionLookup {
 
     INSTANCE;
 
-    private static final String VERSION_JSON = "http://export.mcpbot.bspk.rs/versions.json";
+    private static final String VERSION_JSON = "https://mcpbot.unascribed.com/versions.json";
     private static final Gson GSON = new GsonBuilder().create();
 
     private VersionJson jsoncache;
