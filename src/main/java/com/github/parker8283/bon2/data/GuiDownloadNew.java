@@ -29,8 +29,8 @@ import com.google.common.collect.Lists;
 
 public class GuiDownloadNew extends JFrame {
     
-    private static final String MAPPINGS_URL_SNAPSHOT = "http://export.mcpbot.bspk.rs/mcp_snapshot/%1$s-%2$s/mcp_snapshot-%1$s-%2$s.zip";
-    private static final String MAPPINGS_URL_STABLE = "http://export.mcpbot.bspk.rs/mcp_stable/%1$s-%2$s/mcp_stable-%1$s-%2$s.zip";
+    private static final String MAPPINGS_URL_SNAPSHOT = "https://mcpbot.unascribed.com/mcp_snapshot/%1$s-%2$s/mcp_snapshot-%1$s-%2$s.zip";
+    private static final String MAPPINGS_URL_STABLE = "https://mcpbot.unascribed.com/mcp_stable/%1$s-%2$s/mcp_stable-%1$s-%2$s.zip";
     
     private static class MappingListEntry {
         public final boolean stable;
